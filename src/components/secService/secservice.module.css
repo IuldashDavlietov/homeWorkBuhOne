@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+.service {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.container p {
+    color: #bdbdbd;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138%;
+    padding-top: 8.75rem;
+}
+
+.container h2 {
+    color: #333;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%;
+    padding-top: 2.5rem;
+    padding-bottom: 6.38rem;
+}
+
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.88rem;
+    margin-bottom: 8.75rem;
+}
+
+
+.grid_item {
+    max-width: 21.875;
+    height: 22.5rem;
+    border: 1px solid black;
+}
+
+.grid_item {
+    background-image: url('../../assets/image/buhone.svg');
+    
+}
+
+.grid_item:hover {
+    background-image: url('../../assets/image/buhone-blue.svg');
+}
+
+.item_p1 p {
+    width: 11.6875rem;
+    height: 3.375rem;
+    color: #fff;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 126%;
+    padding-top: 16.31rem;
+    padding-left: 2.81rem;
+}
+
+.item_p p {
+    width: 11.6875rem;
+    height: 3.375rem;
+    color: #fff;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 126%;
+    padding-top: 16.31rem;
+    padding-left: 2.81rem;
+}

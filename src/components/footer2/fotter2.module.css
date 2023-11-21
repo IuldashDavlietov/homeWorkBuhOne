@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+.footer2 {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+
+}
+
+.footer2_items {
+    max-width: 70rem;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer2_items p {
+    color: #000;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%;
+}

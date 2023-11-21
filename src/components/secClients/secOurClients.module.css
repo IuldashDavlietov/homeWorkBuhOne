@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.section_ourClients {
+    max-width: 120rem;
+    background-color: #EBEBEB;
+    margin: 0 auto;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.container {
+    max-width: 70rem;
+    margin: 0 auto;   
+}
+.ourClients_items {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+.ourClients_p  {
+    color:  #BDBDBD;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138%;
+}
+.ourClients_h2 {
+    color:  #333;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%;
+    margin-top: 2.5rem;
+}
+
+.ourClients_wrapper {
+    width: 70rem;
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.88rem;
+}
+.wrapper_mcrs {
+    
+    height: 8.125rem;
+    background-image: url('../../assets/image/microsoft.svg');
+}
+.ourClients_icons {  
+    display: flex;
+    justify-content: space-between;
+}
+.ourClients_point {
+    color: #FFFFFF;
+    width: 10rem;
+    height: 0.625rem;
+    margin-top: 8rem;
+}
+.ourClients_arrow {
+    margin-right: 0;
+    margin-top: 5rem;
+    height: 3.75rem;
+}

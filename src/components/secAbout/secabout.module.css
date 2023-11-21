@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.section_about {
+    max-width: 120rem;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+    padding-top: 8.75rem;
+    padding-bottom: 8.75rem;
+}
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.about_items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+}
+
+.p_about {
+    padding-top: 0;
+    color: #BDBDBD;
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138%;
+}
+
+.h2_comp {
+    width: 21.6875rem;
+    height: 4rem;
+    color: #333;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%;
+    margin-top: 2rem;
+}
+
+.h2_ivanov {
+    width: 21.6875rem;
+    height: 4rem;
+    color: #005FA3;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%;
+    margin-top: 0.5rem;
+}
+
+.text_p {
+    width: 27.8125rem;
+    height: 15.3125rem;
+    color: #000;
+    font-family: Lato;
+    font-size: 1.215rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%;
+    margin-top: 3rem;
+    text-align: left
+}
+
+.items_wrapper {
+    width: 33.80rem;
+    height: 33.80rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.88rem;
+}
+
+.item{
+    height: 15.9375rem;
+}
+
+.item {
+    background-color: #EBEBEB;
+}
+
+.item:hover {
+    background-color: #005FA3;
+}
+
+.p_90 {
+    color: #000;
+    font-family: Lato;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 1.88rem;
+    margin-left: 2.5rem;
+}
+
+.item:hover>p{
+    color: #FFFFFF;
+}
+
+.text {
+    color: #000;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132%;
+    margin-left: 2.5rem;
+    margin-top: 1.88rem;
+    width: 6.6875rem;
+}
+
+.item_a a {
+    color: #005FA3;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item:hover>.item_a>a {
+    color: white;
+}
+
+.item_a {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
